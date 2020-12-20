@@ -1,0 +1,177 @@
+*{
+	margin:0;
+	padding:0; 
+}
+
+body {
+	background:#7fb5b5;
+}
+
+.main{
+   width: 90%;
+   max-width: 1000px;
+   margin:20px auto; 
+}
+.slides{
+	width: 100%;
+}
+
+.slides img{
+	width: 100%;
+}
+
+.slidesjs-pagination{
+	background:#424242;
+	list-style:none;
+	overflow:hidden;
+}
+
+.slidesjs-pagination li{
+	float:left;
+}
+
+.slidesjs-pagination li a{
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.slidesjs-pagination li a:hover{
+	background:#000;
+}
+
+.slides .active{
+	background:#000;
+}
+
+.slidesjs-navigation{
+	background:#000;
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	padding:11px 20px;
+	float:right;
+}
+
+header, .main, footer {
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;   
+}
+
+#header{
+	margen:auto;
+	width: 500px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol{
+	list-style: none;
+}
+
+.nav li a{
+	background-color:#000;
+	color:#fff; 
+	text-decoration: none;
+	padding: 10px 15px;
+	display:block;
+}
+
+.nav li a:hover{
+	background-color:#434343;
+}
+.nav li ul{
+
+	display:none;
+	position:absolute;
+	min-width:140px;
+	z-index: 1000;
+
+}
+.nav li:hover > ul{
+	display: block;
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li ul li ul{
+	right: -140px;
+	top:0px;
+}
+
+.nav > li{
+	float:left;
+}
+/*
+header nav {
+	background:#528FD5;
+	overflow:hidden;  
+}
+
+header nav ul {
+	list-style:none; 
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	padding: 10px 20px;
+	display:block;
+	color:#fff;
+	text-decoration:none; 
+}
+
+header nav ul li a:hover {
+	background:#75ACEC; 
+}
+*/
+
+.main .articles {
+	width:68.5%;
+	margin-right:1.5%; 
+	float:left;
+}
+
+.main .articles article {
+	padding:20px;
+	background:#fff; 
+	margin-bottom:20px;   
+}
+
+aside {
+	width:22%;
+	background:blue;
+	float:left;
+	padding:20px;
+	box-sizing:border-box;      
+}
+
+footer {
+	background:#000;
+	color:white;
+	clear:both;
+	padding:10px 0px;
+	text-align:center;     
+}
+h1{
+	color:#A90808;
+	font-family: Goudy Stout;
+}
+.prueba1{
+	display: inline-block;
+	float:left;
+	padding: 20px;
+}
+.prueba{
+ border:1px solid;
+}
+
+
+
+
+
+
+
+
